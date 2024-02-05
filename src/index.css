@@ -3,3 +3,32 @@
 @import 'tailwindcss/utilities';
 /* Add this import to your CSS file or index.js */
 @import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Home.css */
+
+.app-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    max-height: 100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Add styles for screens with a maximum width of 600px */
+    .app-container {
+      /* Adjust styles for smaller screens */
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* Add styles for screens with a width between 601px and 900px */
+    .app-container {
+      /* Adjust styles for medium-sized screens */
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */
+  body{
+    background-color: white;
+  }
+  

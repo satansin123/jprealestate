@@ -10,10 +10,12 @@ const Logo = () => {
         type: "spring",
         stiffness: 110,
       }}
-      className="text-white"
+      className="text-slate-100"
     >
-      <div className="text-3xl tracking-widest uppercase">JP Real Estate</div>
-      <div className="text-sm text-gray-400 uppercase tracking-widest">
+      <div className={`text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase`}>
+        JP Real Estate
+      </div>
+      <div className={`text-xs md:text-sm text-slate-500 uppercase tracking-widest`}>
         Best in the market right now
       </div>
     </motion.div>
